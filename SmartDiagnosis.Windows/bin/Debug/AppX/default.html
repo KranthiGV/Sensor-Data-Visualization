@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>SmartDiagnosis.Windows</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <!-- SmartDiagnosis.Windows references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <nav id="navigation">
+            <ul>
+                <li id="mythbar">Myth Display</li>
+                <li id="toggler" style="float:right">Locate Hospitals</li>
+            </ul>
+        </nav>
+
+        <div id="status" style="display:none" class="status"></div>
+        <img alt="Breast Cancer Diagnosis" style="display:block;margin-top:20px;margin-left:auto;margin-right:auto" src="/images/logo.png" />
+        <div id="content">
+            Clump Thickeness:
+            <select id="p1">
+                <option value="1">Cells are fully mono-layered</option>
+                <option value="2">10% of Cells are multi-layered</option>
+                <option value="3">20% of Cells are multi-layered</option>
+                <option value="4">35% of Cells are multi-layered</option>
+                <option value="5">Less than 50% of Cells are multi-layered</option>
+                <option value="6">More than 50% of Cells are multi-layered</option>
+                <option value="7">65% of Cells are multi-layered</option>
+                <option value="8">80% of Cells are multi-layered</option>
+                <option value="9">90% of Cells are multi-layered</option>
+                <option value="10">Cells are mostly multi-layered</option>
+            </select>
+            <br>Uniformity of Cell Size:
+            <select id="p2">
+                <option value="1">Cells are completely uniform</option>
+                <option value="2">10% of Cells are non-uniform</option>
+                <option value="3">20% of Cells are non-uniform</option>
+                <option value="4">35% of Cells are non-uniform</option>
+                <option value="5">Less than 50% of Cells are non-uniform</option>
+                <option value="6">More than 50% of Cells are non-uniform</option>
+                <option value="7">65% of Cells are non-uniform</option>
+                <option value="8">80% of Cells are non-uniform</option>
+                <option value="9">90% of Cells are non-uniform</option>
+                <option value="10">Cells are mostly non-uniform</option>
+            </select>
+            <br>Uniformity of Cell Shape:
+            <select id="p3">
+                <option value="1">Cells are completely uniform</option>
+                <option value="2">10% of Cells are non-uniform</option>
+                <option value="3">20% of Cells are non-uniform</option>
+                <option value="4">35% of Cells are non-uniform</option>
+                <option value="5">Less than 50% of Cells are non-uniform</option>
+                <option value="6">More than 50% of Cells are non-uniform</option>
+                <option value="7">65% of Cells are non-uniform</option>
+                <option value="8">80% of Cells are non-uniform</option>
+                <option value="9">90% of Cells are non-uniform</option>
+                <option value="10">Cells are mostly non-uniform</option>
+            </select>
+            <br>Marginal Adhesion:
+            <select id="p4">
+                <option value="1">Cells completely stick together</option>
+                <option value="2">10% of cells do not stick together</option>
+                <option value="3">20% of cells do not stick together</option>
+                <option value="4">35% of cells do not stick together</option>
+                <option value="5">Less than 50% of cells do not stick together</option>
+                <option value="6">More than 50% of cells do not stick together</option>
+                <option value="7">65% of cells do not stick together</option>
+                <option value="8">80% of cells do not stick together</option>
+                <option value="9">90% of cells do not stick together</option>
+                <option value="10">Most cells do not stick together</option>
+            </select>
+            <br>Single Epithelial Cell Size:
+            <select id="p5">
+                <option value="1">Epithelial Cell Size is completely normal</option>
+                <option value="2">10% of Epithelial Cells are abnormal</option>
+                <option value="3">20% of Epithelial Cells are abnormal</option>
+                <option value="4">35% of Epithelial Cells are abnormal</option>
+                <option value="5">Less than 50% of Epithelial Cells are abnormal</option>
+                <option value="6">More than 50% of Epithelial Cells are abnormal</option>
+                <option value="7">65% of Epithelial Cells are abnormal</option>
+                <option value="8">80% of Epithelial Cells are abnormal</option>
+                <option value="9">90% of Epithelial Cells are abnormal</option>
+                <option value="10">Most Epithelial Cells are abnormal</option>
+            </select>
+            <br>Bare nuclei:
+            <select id="p6">
+                <option value="1">Nuclei are not surrounded by cytoplasm</option>
+                <option value="2">10% of Nuclei are surrounded by cytoplasm</option>
+                <option value="3">20% of Nuclei are surrounded by cytoplasm</option>
+                <option value="4">35% of Nuclei are surrounded by cytoplasm</option>
+                <option value="5">Less than 50% of Nuclei are surrounded by cytoplasm</option>
+                <option value="6">More than 50% of Nuclei are surrounded by cytoplasm</option>
+                <option value="7">65% of Nuclei are surrounded by cytoplasm</option>
+                <option value="8">80% of Nuclei are surrounded by cytoplasm</option>
+                <option value="9">90% of Nuclei are surrounded by cytoplasm</option>
+                <option value="10">Most Nuclei are surrounded by cytoplasm</option>
+            </select>
+            <br>Bland Chromatin:
+            <select id="p7">
+                <option value="1">Chromatin texture is completely uniform</option>
+                <option value="2">10% of Chromatin texture is non-uniform</option>
+                <option value="3">20% of Chromatin texture is non-uniform</option>
+                <option value="4">35% of Chromatin texture is non-uniform</option>
+                <option value="5">Less than 50% of Chromatin texture is non-uniform</option>
+                <option value="6">More than 50% of Chromatin texture is non-uniform</option>
+                <option value="7">65% of Chromatin texture is non-uniform</option>
+                <option value="8">80% of Chromatin texture is non-uniform</option>
+                <option value="9">90% of Chromatin texture is non-uniform</option>
+                <option value="10">Most Chromatin texture is non-uniform</option>
+            </select>
+            <br>Normal Nucleoli:
+            <select id="p8">
+                <option value="1">Nucleoli are normal in size and count</option>
+                <option value="2">10% of Nucleoli are abnormal</option>
+                <option value="3">20% of Nucleoli are abnormal</option>
+                <option value="4">35% of Nucleoli are abnormal</option>
+                <option value="5">Less than 50% of Nucleoli are abnormal</option>
+                <option value="6">More than 50% of Nucleoli are abnormal</option>
+                <option value="7">65% of Nucleoli are abnormal</option>
+                <option value="8">80% of Nucleoli are abnormal</option>
+                <option value="9">90% of Nucleoli are abnormal</option>
+                <option value="10">Most Nucleoli are abnormal</option>
+            </select>
+            <br>Mitoses:
+            <select id="p9">
+                <option value="1">Mitotic activity is normal</option>
+                <option value="2">10% of Mitotic activity is abnormal</option>
+                <option value="3">20% of Mitotic activity is abnormal</option>
+                <option value="4">35% of Mitotic activity is abnormal</option>
+                <option value="5">Less than 50% of Mitotic activity is abnormal</option>
+                <option value="6">More than 50% of Mitotic activity is abnormal</option>
+                <option value="7">65% of Mitotic activity is abnormal</option>
+                <option value="8">80% of Mitotic activity is abnormal</option>
+                <option value="9">90% of Mitotic activity is abnormal</option>
+                <option value="10">Most Mitotic activity is abnormal</option>
+            </select><br /><br />
+            <button id="submitted">Analyse</button>
+            <!--Output Start -->
+            <div id="output"></div>
+            <!--Output End -->
+        </div>
+
+        <div id="contentMap">
+        <iframe id="Map" src="ms-appx-web:///geo.html?Lat=17.9842&Lng=79.53358" style="width:100%;height:60%"></iframe>
+        </div>
+
+    </div>
+</body>
+</html>

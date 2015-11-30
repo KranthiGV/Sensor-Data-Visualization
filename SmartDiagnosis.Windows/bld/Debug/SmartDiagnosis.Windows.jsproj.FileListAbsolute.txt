@@ -1,0 +1,15 @@
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.Windows\bin\Debug\ReverseMap\resources.pri
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.Windows\bin\Debug\AppxManifest.xml
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.Windows\bin\Debug\SmartDiagnosis.Windows.build.appxrecipe
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.Windows\bld\Debug\priconfig.xml
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.Windows\bld\Debug\priconfig.xml.intermediate
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.Windows\bld\Debug\layout.resfiles
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.Windows\bld\Debug\layout.resfiles.intermediate
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.Windows\bld\Debug\resources.resfiles
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.Windows\bld\Debug\resources.resfiles.intermediate
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.Windows\bld\Debug\pri.resfiles
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.Windows\bld\Debug\pri.resfiles.intermediate
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.Windows\bld\Debug\qualifiers.txt
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.Windows\bld\Debug\qualifiers.txt.intermediate
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.Windows\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.Windows\bld\Debug\ProjectArchitectures.txt

@@ -1,0 +1,15 @@
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.WindowsPhone\bin\Debug\ReverseMap\resources.pri
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.WindowsPhone\bin\Debug\AppxManifest.xml
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.WindowsPhone\bin\Debug\SmartDiagnosis.WindowsPhone.build.appxrecipe
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.WindowsPhone\bld\Debug\priconfig.xml
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.WindowsPhone\bld\Debug\priconfig.xml.intermediate
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.WindowsPhone\bld\Debug\layout.resfiles
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.WindowsPhone\bld\Debug\layout.resfiles.intermediate
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.WindowsPhone\bld\Debug\resources.resfiles
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.WindowsPhone\bld\Debug\resources.resfiles.intermediate
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.WindowsPhone\bld\Debug\pri.resfiles
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.WindowsPhone\bld\Debug\pri.resfiles.intermediate
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.WindowsPhone\bld\Debug\qualifiers.txt
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.WindowsPhone\bld\Debug\qualifiers.txt.intermediate
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.WindowsPhone\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\kranthi\documents\visual studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.WindowsPhone\bld\Debug\ProjectArchitectures.txt

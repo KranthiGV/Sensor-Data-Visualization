@@ -1,0 +1,1 @@
+C:\Users\Kranthi\Documents\Visual Studio 2013\Projects\SmartDiagnosis\SmartDiagnosis.Windows\SmartDiagnosis.Windows.jsproj;neutral
